@@ -27,3 +27,10 @@ git merge branchname -> for these we have to first switch to main branch and we 
 git pull origin main->
 git rebase branchname-> optimize or better way of merging
 git clone ssh-id -> project will come to your ide whose ssh-id you have written
+
+
+git branch
+git checkout -b main
+git add .
+git commit -m "Initial commit"
+git push -u origin main   // this is for https keys 
