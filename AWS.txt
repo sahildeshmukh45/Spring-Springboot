@@ -21,3 +21,4 @@ change the port no to 5000->create database ->select databases -> select engine 
 ELASTIC CONTAINER SERVICE(ECS)
 Do the elastic container service by the AWS CLI if you dont have aws cli then  get the access key and secret access key 
 first click and enter IAM -> click on user ->create key->search for ecs(ELASTIC CONTAINER SERVICE)->create a new cluster and run the task->runt the task for Postgres ->elastic container registery-> push docker image to ECR
+ first we have to creat  group 

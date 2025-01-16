@@ -6,17 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SecurityDemo (2)" />
-        <module name="SecurityDemo" />
-        <module name="SecurityDemo (1)" />
+        <module name="JavaMail" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SecurityDemo" options="-parameters" />
-      <module name="SecurityDemo (1)" options="-parameters" />
-      <module name="SecurityDemo (2)" options="-parameters" />
+      <module name="JavaMail" options="-parameters" />
     </option>
   </component>
 </project>

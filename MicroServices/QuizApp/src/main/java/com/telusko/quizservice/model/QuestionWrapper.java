@@ -3,7 +3,7 @@ package com.telusko.quizservice.model;
 import lombok.Data;
 
 @Data
-public class QuestionWrapper {
+public class  QuestionWrapper {
 
     private Integer id;
     private String questionTitle;

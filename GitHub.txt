@@ -34,3 +34,27 @@ git checkout -b main
 git add .
 git commit -m "Initial commit"
 git push -u origin main   // this is for https keys 
+
+
+
+git init -> to inside the file nad make git repository of that file
+git add . -> to add all the file in repository present in that file instead of . we can also use file name
+git commit -m "" -> to staged the file means add in git history and modified the changes 
+git push -u origin main
+git restore --staged filename -> if staged any file and wants to make unStage we can use these command  
+git log -> entire history of project 
+rm -rf names.txt -> for deleting file
+git reset #id -> lets if you want to go any particular history of commit we can go using #id 
+git stash->
+git stash pop->
+git stash clear ->
+git remote add origin urlOfGithubRepository ->
+don't commit on main branch, commit on main branch only when your file or the things that your working is fully right and completed.
+git branch branchName ->
+git checkout branchName-> now i can make changes in these branch that means head will come on these branch and after finalinzing can merge to main branch 
+git merge branchName -> now we are part of main branch
+git push origin main -> for pushing file to particular branch
+if you want to make changes in someone else project we cannot do it but we can make changes by forking(copying) to your account and make changes according to you 
+from where you have forked these project url by default it's called upstream url
+git remote add upstream URL -> 
+we have to make changes in the main project like from the where you have forked the project 

@@ -3,7 +3,6 @@ docker ps                      which container is running
 docker ps -a                   for seeing all the containers 
 docker images                  for seeing how many images I have and also id of that image 
 docker exec                    Execute a command in a running container
-docker ps                      List containers
 docker rename                  Rename a container
 docker restart                 Restart one or more containers
 docker rm containerId          Remove one or more containers
